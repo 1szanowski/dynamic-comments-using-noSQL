@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans";
+    background-color: #1B1924;
+    color: #432000;
+    user-select: none;
+}
+.global_wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 20px auto;
+}
+img {
+    padding-top: 10px;
+    width: 90px;
+    margin: 0 auto;
+}
+h1 {
+size: 25px;
+
+}
+h1,h3 {
+    margin-top: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 10px auto;
+}
+textarea {
+    resize: none;
+    margin-top: 0;
+    color: #8F8F8F;
+    background-color: #444059;
+    border: 0;
+    padding: 10px 10px 100px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: left;
+    font-family: "Josefin Sans", sans-serif;
+     overflow: auto; 
+    overflow-wrap: break-word; 
+}
+.credentials {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    
+}
+input {
+    color: #8F8F8F;
+    background-color: #444059;
+    border: 0;
+    border-radius: 8px;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 15px;
+    flex-grow: 1;
+    max-width: 130px;
+    
+}
+.add_btn {
+    margin-top: 15px;
+    color: #04131C;
+    background-color: #28A9F1;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 22px;
+    text-align: center;
+    box-shadow: none;
+    font-family: "Josefin Sans";
+    }
+    .add_btn:hover {
+    background-color: #0284C7;
+    cursor: pointer;
+  }
+  h3 {
+      margin-top: 20px;
+  }
+ 
+  .comments_list {
+    list-style-type: none;
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color:#FFFFFF;
+    align-items: center;
+    
+  }
+  li {
+    list-style-type: none;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: left;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: -38px;
+}
+ul li:hover {
+    background-color: #444059;
+    cursor: pointer;
+}
+.endorsement > .sender,
+.endorsement > .recipient {
+ display: inline-block;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 5px;
+}
